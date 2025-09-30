@@ -16,4 +16,10 @@ dl{display:grid;grid-template-columns:120px 1fr;gap:6px 12px;margin:0}
 dt{color:var(--muted);font-weight:600}
 dd{margin:0}
 footer{text-align:center;color:var(--muted);font-size:13px;margin-top:20px}
+.mt-20{margin-top:20px}
+.mt-14{margin-top:14px}
+.mt-8{margin-top:8px}
+.form-input{width:100%;padding:10px;border:1px solid #e6eef6;border-radius:8px}
+.form-actions{display:flex;justify-content:flex-end}
+.submit-button{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
 @media (max-width:900px){.grid{grid-template-columns:1fr} .brand h1{font-size:18px}}
