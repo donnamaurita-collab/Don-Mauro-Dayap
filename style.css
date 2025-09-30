@@ -23,3 +23,8 @@ footer{text-align:center;color:var(--muted);font-size:13px;margin-top:20px}
 .form-actions{display:flex;justify-content:flex-end}
 .submit-button{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
 @media (max-width:900px){.grid{grid-template-columns:1fr} .brand h1{font-size:18px}}
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
